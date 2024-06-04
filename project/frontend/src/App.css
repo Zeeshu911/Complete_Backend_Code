@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-size: 20px;
+}
+.auth{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.auth form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.auth form div{
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  width: 320px;
+}
+.auth form div input{
+  padding: 7px 3px;
+}
+.auth form h3{
+  font-size: 32px;
+  letter-spacing: 1.5px;
+  margin-bottom: 15px;
+}
+.auth form button{
+  background: rgb(5, 63, 253);
+  border: none;
+  padding: 10px 30px;
+  width: 320px;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+nav{
+  padding: 20px 40px;
+  background: #111;
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+nav a{
+  color: #fff;
+  text-decoration: none;
+}
+.home{
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.home h1{
+  margin-bottom: 20px;
+  font-size: 32px;
+  text-align: center;
+}
+.home .create-task{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.home .create-task input{
+  padding: 7px 3px;
+  font-size: 20px;
+}
+.home .create-task textarea{
+  padding: 7px 3px;
+  font-size: 20px;
+}
+.home .create-task button{
+  padding: 10px;
+  border: none;
+  background: rgb(0, 38, 255);
+  color: #fff;
+}
+.home .tasks{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.home .tasks .card{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  border-radius: 7px;
+  padding: 10px 4px;
+}
+.home .tasks .card input{
+  font-size: 27px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.home .tasks .card div{
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  align-items: center;
+}
+.home .tasks .card div button:first-child{
+  padding: 10px 30px;
+  border: none;
+  background: rgb(233, 59, 59);
+  color: #fff;
+}
+.home .tasks .card div button:last-child{
+  padding: 10px 30px;
+  border: none;
+  background: rgb(248, 230, 36);
+  color: #111;
+}
